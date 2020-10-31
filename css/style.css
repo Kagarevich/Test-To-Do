@@ -1,0 +1,275 @@
+html {
+  background-color: whitesmoke;
+}
+
+header {
+  position: fixed;
+  background-color: rgb(11, 24, 212);
+  height: 84px;
+  width: 1109px;
+  padding-right: 55px;
+  padding-left: 55px;
+}
+
+body {
+  margin: 0 auto;
+  width: 1219px;
+  padding-right: 55px;
+  padding-left: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: 75px;
+  text-align: center;
+}
+
+.shapka {
+  height: 84px;
+}
+
+.bezKartinki {
+  text-align: right;
+}
+
+.otstup {
+  margin-top: 25px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.text1 {
+  text-align: right;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.text {
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.Ssilki {
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.Name {
+  padding-top: 84px;
+  height: 403px;
+  background: url("../img/4.png");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.Name > div {
+  margin-top: 12%;
+  color: whitesmoke;
+}
+
+.TheTask {
+  background: #eeeeee;
+  height: 719px;
+  top: 487px;
+}
+
+.Task {
+  color: rgb(11, 24, 212);
+  padding-top: 48px;
+}
+
+.text2 {
+  padding-bottom: 92px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.TheSolution {
+  background: #eeeeee;
+  height: 1000px;
+  top: 487px;
+  padding-top: 48px;
+}
+
+.Solution {
+  background-color: rgb(11, 24, 212);
+  height: 84px;
+}
+
+.Solution > h1 {
+  color: whitesmoke;
+}
+
+/*------------TODO------------*/
+.hTodo {
+  background: rgb(11, 24, 212);
+  color: white;
+}
+
+input {
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 0.5px;
+  padding-left: 25px;
+  border: 3px solid gray;
+  color: gray;
+}
+
+input:focus {
+  background: #edf1f5;
+  border: 3px solid #86a8e7;
+  outline: none;
+  color: black;
+}
+
+span.todo-trash {
+  margin-right: 10px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+}
+
+span.todo-accept {
+  margin-right: 10px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  transition: 0.1s ease-in;
+}
+
+button {
+  background-color: rgb(11, 24, 212);
+  border: 2px solid rgb(11, 24, 212);
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #86a8e7;
+}
+
+#buttons {
+  display: inline-block;
+  text-align: center;
+  margin: 2px 4px;
+}
+
+#todo {
+  margin: 0 auto;
+  box-shadow: 0 0 1em black;
+  max-width: 600px;
+  background: white;
+  height: 70%;
+}
+
+.todos {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todos li {
+  background: #f7f7f7;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.display {
+  display: none;
+  transition: 0.3s linear;
+}
+
+.checked {
+  color: rgb(18, 197, 12);
+  text-decoration: line-through;
+}
+
+li.checked {
+  background-color: green;
+}
+
+.fa-trash-alt {
+  color: black;
+}
+
+/*--------TEAM------------*/
+.people {
+  /*padding-top: 48px;*/
+  color: whitesmoke;
+  text-align: center;
+  background-color: rgb(11, 24, 212);
+}
+
+.container {
+  background: #eee;
+  padding-top: 48px;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.member {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  flex-basis: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.member > img {
+  height: 200px;
+  width: 200px;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgb(11, 24, 212);
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+}
+
+footer {
+  height: 176px;
+  background: #333333;
+}
+
+.footerText {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 48px;
+  width: 540px;
+  height: 64px;
+  padding-left: 340px;
+}

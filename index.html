@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Test To-Do List</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/flexboxgrid2.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <header>
+    <div class="shapka">
+      <div class="bezKartinki">
+        <div class="otstup">
+          <a class="Ssilki" href="#Task">Задача |</a>
+          <a class="Ssilki" href="#Solution">Решение |</a>
+          <a class="Ssilki" href="#Container">Команда разработки</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="Name">
+      <div><h1>To-Do List</h1></div>
+    </div>
+    <div class="TheTask" id="Task">
+      <div class="Task"><h1>Задача</h1></div>
+      <div class="text2 text">
+        <ol>
+          <li>
+            Сделать todo-лист, добавить возможность создать, выполнить, удалить
+            todo'шку и чтобы было красиво :)
+          </li>
+          <br />
+          <li>
+            Запрещено: jquery, bootstrap и так далее. <br />Будет полезно:
+            localStorage, youtube?
+          </li>
+          <br />
+          <li>
+            Загрузить выполнению работу в гит репозеторий или скинуть архив<br />
+            Работа должна быть выполнена не позже конца воскресения
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="TheSolution" id="Solution">
+      <div class="Solution">
+        <h1>Решение</h1>
+      </div>
+      <div id="todo">
+        <h1 class="hTodo">To-Do List</h1>
+        <input type="text" placeholder="Add To-Do to the list" />
+        <ul class="todos"></ul>
+        <div id="buttons">
+          <button class="clear">Clear</button>
+        </div>
+      </div>
+      <div class="text2">
+        <ol>
+          <li>Для удаления todo'шки необходимо нажать на мусорный бак</li>
+          <br />
+          <li>
+            Для отметки выполниния необходимо нажать на свободную зону самой
+            todo'шки, после чего она окрасится в зелёный цвет
+          </li>
+          <br />
+          <li>Кнопка clear очищает весь список todo'шки</li>
+        </ol>
+      </div>
+      <script src="js/script.js"></script>
+    </div>
+    <div class="container">
+      <h1 class="people h4" id="Container">Команда разработки</h1>
+      <div class="members">
+        <a href="https://vk.com/damirfv" target="_blank" class="member">
+          <img src="img/Damir.PNG" />
+          <h2 class="member-name">Дамир</h2>
+          <span class="member-role">Татарин</span>
+        </a>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="footerText">Все права не защищены</div>
+  </footer>
+</html>
